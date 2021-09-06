@@ -1,0 +1,7 @@
+{
+    "appPort": 5103,
+    "version": {
+        "version": "1.0.0.0",
+        "url": "http://localhost:5103/api/modnotification/version/download"
+    }
+}

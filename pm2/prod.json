@@ -1,0 +1,12 @@
+{
+    "apps": [
+        {
+            "name": "prod.mod-notification",
+            "script": "npm",
+            "args": [
+                "run",
+                "start"
+            ]
+        }
+    ]
+}
