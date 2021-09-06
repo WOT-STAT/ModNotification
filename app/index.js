@@ -10,13 +10,13 @@ app.use(express.json())
 app.use(cors());
 app.options('*', cors());
 
-app.use('/api/modnotification/version', version)
+app.use('/api/modnotification', version)
 
 async function Start() {
     const port = config.get('appPort') || 5000
     try {
         app.listen(port, () => {
-            console.log(`App listening at http://localhost:${port}/api/modnotification/version`)
+            console.log(`App listening at http://localhost:${port}/api/modnotification`)
         })
     }
     catch (e) {
